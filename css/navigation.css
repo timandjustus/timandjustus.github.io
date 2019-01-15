@@ -18,3 +18,15 @@
 	background-color: #4c50af;
 	color: white;
 }
+.congress {
+	overflow: hidden;
+	background-color: #444;
+}
+.senate {
+	overflow: hidden;
+	background-color: #533;
+}
+.house {
+	overflow: hidden;
+	background-color: #353;
+}

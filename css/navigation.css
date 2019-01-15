@@ -1,9 +1,3 @@
-body {
-	background-image: url("images/background.jpg");
-	background-size: cover;
-	background-position: center;
-	background-attachment: fixed;
-}
 .navigation {
 	overflow: hidden;
 	background-color: #333;

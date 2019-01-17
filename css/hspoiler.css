@@ -2,13 +2,13 @@
   content: "+";
   float: right;
   font-family: monospace;
-  font-size: 15px;
+  font-size: 50px;
   font-weight: bold;}
 .spoiler1 > input:checked + label:after{
   content: "-";
   float: right;
   font-family: monospace;
-  font-size: 15px;
+  font-size: 50px;
   font-weight: bold;}
 .spoiler1 > input{display:none;}
 .spoiler1 > input + label , .spoiler1 > .spoiler1_body{

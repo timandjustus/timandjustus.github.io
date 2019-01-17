@@ -18,7 +18,7 @@
   display: block;}
 .spoiler1 > input + label + .spoiler1_body{display:none;}
 .spoiler1 > input:checked + label + .spoiler1_body{display: block;}
-.spoiler1 > .spoiler_body{
+.spoiler1 > .spoiler1_body{
   background: #353;
   border: 3px solid #CCC;
   border-top: none;}

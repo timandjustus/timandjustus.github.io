@@ -22,5 +22,5 @@
 .spoiler1 > input:checked + label + .spoiler1_body{display: block;}
 .spoiler1 > .spoiler1_body{
   background: #353;
-  border: 3px solid #CCC;
+  border: 3px solid #3a3;
   border-top: none;}

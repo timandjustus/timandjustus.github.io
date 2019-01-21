@@ -12,7 +12,7 @@
   font-weight: bold;}
 .spoiler1 > input{display:none;}
 .spoiler1 > input + label , .spoiler1 > .spoiler1_body{
-  background:#3a3;
+  background:#33a;
   padding:5px 15px;
   overflow:hidden;
   width:100%;
@@ -21,6 +21,6 @@
 .spoiler1 > input + label + .spoiler1_body{display:none;}
 .spoiler1 > input:checked + label + .spoiler1_body{display: block;}
 .spoiler1 > .spoiler1_body{
-  background: #353;
-  border: 3px solid #3a3;
+  background: #335;
+  border: 3px solid #33a;
   border-top: none;}

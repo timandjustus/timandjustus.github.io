@@ -1,0 +1,26 @@
+.spoiler1 > input + label:after{
+  content: "+";
+  float: right;
+  font-family: monospace;
+  font-size: 50px;
+  font-weight: bold;}
+.spoiler1 > input:checked + label:after{
+  content: "-";
+  float: right;
+  font-family: monospace;
+  font-size: 50px;
+  font-weight: bold;}
+.spoiler1 > input{display:none;}
+.spoiler1 > input + label , .spoiler1 > .spoiler1_body{
+  background:#3a3;
+  padding:5px 15px;
+  overflow:hidden;
+  width:100%;
+  box-sizing: border-box;
+  display: block;}
+.spoiler1 > input + label + .spoiler1_body{display:none;}
+.spoiler1 > input:checked + label + .spoiler1_body{display: block;}
+.spoiler1 > .spoiler1_body{
+  background: #353;
+  border: 3px solid #3a3;
+  border-top: none;}
